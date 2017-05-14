@@ -1,0 +1,568 @@
+body {
+    margin:0rem auto;
+    padding:0rem;
+}
+
+.box {
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: 0rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+
+}
+
+#logo {
+  padding: 0rem;
+
+  z-index: 2;
+}
+
+#header_logo {
+	width: 90%;
+	height:90%;
+	padding: 3rem;
+	z-index: 3;
+}
+
+
+.pull-me{
+  cursor:pointer;
+  position: static;
+  border-right: .1rem solid white;
+}
+
+.panel {
+  background: rgb(188,216,172);
+  background-size: 10% 10%;
+  display: none;
+  border-bottom: 1px double black;
+}
+
+
+.drop-down {
+  display: inline-block;
+  position: relative;
+  margin: .625rem .625rem;
+}
+
+
+ul.menu li{
+  display: inline-block;
+  text-align: center;
+  margin: 0rem 0rem 1rem 0rem;
+  width: 14rem;
+  float: left;
+  color: #00009B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  clear: float;
+  color: white;
+}
+
+
+.pull-me a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+p.drop-down a {
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.active {
+	background-color: rgb(188,216,172);
+	opacity: .5;
+}
+
+.active2 {
+	opacity: .5;
+}
+
+.content_about {
+  background-size: cover;
+  background-position: center;
+  
+  font-family: 'Sanchez', sans-serif;
+  font-size: 1.25rem;
+  padding: 4.375rem 4.375rem;
+  margin: .625rem .3125rem .625rem .3125rem;
+}
+
+#sub_head {
+
+ font-size: 1rem;
+ font-family: 'Playfair Display', serif;  
+ color: #215E21;
+ font-size: 3rem;
+ margin: 0rem 0;
+ padding: 3rem 0;
+ line-height: 2.75rem;
+ text-align: center;
+}
+
+footer.container p {
+  font-size = .375rem;
+  text-align = center;
+}
+
+.row container section{
+	display: inline-block;
+    font-family: 'Raleway', italic;	
+    font-size = .625rem;
+}
+
+#paragraph_1{
+  margin: 0rem 0rem 0rem 1rem;
+  font-size: 1.25rem;
+  width: 25rem;
+  float: left;
+  text-align: center;
+}
+#paragraph_2{
+  margin: 0rem 0rem 0rem 26rem;
+  font-size: 1.25rem;
+  width: 29rem;
+  text-align: center;
+}
+#paragraph_3{
+  margin: 5.9375rem 0rem 0rem 23rem;
+}
+#paragraph_4{
+  margin: 5.625rem 0rem 0rem 23rem;
+}
+
+.home_texts p{
+  font-family: 'Playfair Display', serif;
+}
+
+.apartment_images{
+	float: left;
+	margin: 2rem 0.5rem;
+	vertical-align: center;
+	text-align: center;
+	height: 20rem;
+	width: 32%;
+
+}
+
+
+#apartments{
+	display: inline-block;
+	position: inline-block;
+}
+
+.home_images {
+	position: absolute;
+}
+#home_hawk {
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 0;
+	opacity: 0.7;
+}
+
+#img_home_one {
+  height: 10%;
+  width: 10%;
+  margin: .5rem 0rem 2.5rem 13rem;
+}
+#img_home_two {
+  height: 20%;
+  width: 20%;
+  margin: 1.5rem 0rem 1rem 13.5rem;
+}
+#img_home_three {
+  height: 8%;
+  width: 8%;
+  margin: 1rem 0rem 2rem 13.5rem;
+}
+#img_home_four {
+  height: 10%;
+  width: 10%;
+  margin: 1rem 0rem 2.5rem 13rem;
+}
+
+.home_search_tag {
+color: #00009B;
+text-transform: none;
+font-family: inherit;
+font-size: inherit;
+text-decoration: none;
+}
+
+.home_border {
+    background-color: rgba(188,216,172,0.4);	
+}
+
+.home_border_2 {
+    background-color: rgba(188,216,172,0.6);	
+}
+
+.home_border_3 {
+    background-color: rgba(188,216,172,0.8);	
+}
+
+
+#tab_image_one {
+	max-width: 100%;
+	max-height: 100%;
+}
+#tab_image_two {
+  	height: 25rem;
+	width: 28.75rem;
+}
+#tab_image_three {	
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#defaultOpen {
+    background-color: #FFC200;
+	margin: 0rem 0rem 0rem 3.75rem;
+}
+
+#tablink_2 {
+    background-color: #8B008B;
+	margin: 0rem 0rem 0rem 0.3125rem;
+}
+
+#tablink_3 {
+    background-color: rgb(38, 255, 104);
+	margin: 0rem 0rem 0rem 0.3125rem;
+}
+
+
+/* Style the tab buttons */
+.tablink {
+    color: #215E21;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .875rem 1rem;
+    font-size: 1.25rem;
+    width: 30%;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+	opacity: 1;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 3.125rem;
+    text-align: center;
+    height: 23.75rem;
+    width: 90%;
+    margin: 0rem 0rem 0rem 1.25rem;
+}
+
+/* Style each tab content individually */ 
+#Student {
+	background-color: rgba(38,85,255,.3);
+	}
+	
+.Student_content {
+  float: left;
+  text-align: left;
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 2rem;
+  font-family: 'Fairplay Display', serif;
+  color: #215E21;
+}
+.Student_content_2 {
+  float: left;
+  text-align: left;
+  margin: .625rem 0rem;
+  padding: 1.25rem 0rem;
+  font-size: 2rem;
+  font-family: 'Fairplay Display', serif;
+  }
+
+.About_content {
+  text-align: left;
+  margin: .625rem 1rem;
+  padding: 1.25rem 1rem;
+  font-size: 1.25rem;
+  font-family: 'Fairplay Display', sans-serif;
+}
+.About_content2 {
+  text-align: left;
+  margin: .625rem 4rem;
+  padding: 1.25rem 1rem;
+  font-size: 1.5rem;
+  font-family: 'Fairplay Display', sans-serif;
+}
+	
+#Parent {
+	background-color: rgba(255,67,48,.3);
+	}
+#Instructor {
+	background-color: rgba(38, 255, 104, .3);
+	}
+
+
+
+
+form {
+    font-size: .75rem;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+}
+#messages {
+    font-size: .875rem;
+	font-family: Garamond, Times, Serif;
+}
+#search_box {
+	float: left;
+	text-align: center;
+	clear: float;
+	padding: 0rem 0rem 0rem 2rem;
+}
+
+.header_txt {
+ padding: .9375rem;
+}
+
+.header_txt img {
+   display: inline-block;
+}
+
+.header_txt h1 {
+   display: inline-block;
+}
+
+
+.main h2 {
+ background-color: #DDDDDD ;
+ color: #999999 ;
+ font-size: 1.25rem;
+ margin: 0 0 2.5rem 0;
+ padding: 1.25rem 0;
+ text-align: center;
+}
+
+.thumbnail {
+ border: 0rem;
+ position: relative;
+ padding: 3.125rem;
+   border-radius: 0;
+   margin-bottom: 3.125rem;
+   text-align: center;
+   
+}
+
+.thumbnail img {
+   margin-top: .625rem;
+   margin-bottom: 1.875rem;
+   max-width: 100%;
+   width: 30%;
+   height: 30%;
+}
+
+.date {
+   color: #a3a3a3 ;
+   font-size: .875rem;
+   font-weight: 200;
+}
+
+.title{
+  margin: .625rem 1rem;
+  padding: 1.25rem 1rem;
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.price {
+ background-color: #39D1B4 ;
+ color: #fff;
+ font-size: 1.125rem;
+   border-radius: 50%;
+   box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.2);
+   font-weight: 200;
+   height: 5rem;
+   line-height: 5rem;
+   text-align: center;
+   width: 5rem;
+ position: absolute;
+ top: -2.5rem;
+ right: 4.5rem;
+}
+
+.rating {
+ text-align: right;
+ -webkit-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+ margin: 1.875rem 0 -1.875rem 1.25rem;
+}
+
+.likes,
+.dislikes {
+   background: #F65A5B ;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-size: .9375rem;
+   line-height: 2.5rem;
+   min-width: 2.5rem;
+   height: 5rem;
+   border-radius: 50%;
+ margin: 0 2rem 3rem 5rem;
+   text-align: center;
+   font-weight: 200;
+   box-shadow: 0 .125rem .3125rem rgba(0,0,0,0.2);
+   transition: background 500ms;
+}
+
+.likes:hover,
+.dislikes:hover {
+ color: #F65A5B ;
+   background: rgba(246, 90, 91, 0.25);
+   transition: background 500ms;
+}
+
+.footer_end {
+	text-align: right;
+	color: white;
+	background-color: rgba(0,0,0,.6);
+	text-transform: none;
+    font-family: 'Fairplay Display', sans-serif;
+}
+.home_search_tag_2 {
+color: white;
+text-transform: none;
+font-family: inherit;
+font-size: inherit;
+text-decoration: none;
+}
+
+#buttons_pay {
+position: inline-block;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid black; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(38,85,255);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: rgba(38,85,255,.5);
+}
+
+/* Add a background color and some padding around the form */
+.container_box {
+    border-radius: 5px;
+    background-color: rgba(38,85,255,.03);
+    padding: 0rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+
+#searches_box {
+	display: inline-block;
+	position: inline-block;
+}
+
+@media only screen and (max-width: 1000px) {
+	.box {
+	  max-width: 100%;	
+	  padding: 0 0 30rem 0;
+	}
+	
+	#header_logo {
+		max-width:27.5rem;
+	}
+	
+	ul.menu li{
+		max-width: 8rem;
+	}
+	
+	#logo {
+		float: none;
+	}
+	
+	.home_border {
+		max-width: 100%;
+	}
+	
+	.about_border {
+		max-width: 100%;
+	}
+	
+	.textbook_border {
+		max-width: 100%;
+	}
+	
+	.tablink {
+	    max-width: 30%;
+	}
+	
+	.tabcontent {
+	    max-width: 90%;
+	}
+		
+
+	* {
+          font-size: 1rem;
+	}
+	
+	apartment_images {
+		max-height: 20rem;
+		max-width: 32%;
+	}
+	
+	#paragraph_1, #paragraph_2, #paragraph_3, #paragraph_4{
+          margin: 0.5rem 0.5rem;
+          padding: 0.5rem 0 0 2rem;
+	}
+	
+	 #img_home_one, #img_home_two, #img_home_three, #img_home_four {
+	      margin: 1rem 0;
+          padding: 1rem 0;
+	 }
+	
+	  #tab_image_one,  #tab_image_two, #tab_image_three {	
+	 	  display: none;
+	 }
+}
