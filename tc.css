@@ -516,6 +516,7 @@ input[type=submit]:hover {
 	
 	ul.menu li{
 		max-width: 8rem;
+		color: #215E21;
 	}
 	
 	#logo {
@@ -536,6 +537,7 @@ input[type=submit]:hover {
 	
 	.tablink {
 	    max-width: 30%;
+	    padding: .5rem 0;
 	}
 	
 	.tabcontent {
@@ -548,19 +550,11 @@ input[type=submit]:hover {
 	}
 	
 	apartment_images {
-		max-height: 20rem;
+		max-height: 7rem;
 		max-width: 32%;
+		margin: 0.5rem 0.1rem;
 	}
 	
-	#paragraph_1, #paragraph_2, #paragraph_3, #paragraph_4{
-          margin: 0.5rem 0.5rem;
-          padding: 0.5rem 0 0 2rem;
-	}
-	
-	 #img_home_one, #img_home_two, #img_home_three, #img_home_four {
-	      margin: 1rem 0;
-          padding: 1rem 0;
-	 }
 	
 	  #tab_image_one,  #tab_image_two, #tab_image_three {	
 	 	  display: none;
