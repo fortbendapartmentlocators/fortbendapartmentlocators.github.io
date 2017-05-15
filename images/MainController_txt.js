@@ -6,7 +6,7 @@ app.controller('MainController', ['$scope', function($scope) {
     	name: 'Fort Bend Pets Alive', 
     	price: 15, 
     	pubdate: new Date('2017', '05', '01'), 
-    	cover: 'images/FBPA.png',
+    	cover: 'images/FBPA.jpg',
     	likes: 0,
   	}, 
   	{ 
