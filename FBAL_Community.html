@@ -75,23 +75,20 @@
         <p id = "sub_head">Our Community Project</p>
         
       <p class = "About_content"> We are members of a community. We reach out and connect to members doing meaningful
-  	  works for our community. You are also a member of our community. If you are doing meaningful works and want to raise its
-  	  awareness, please let us know in the 'Partnership' section. <br /> <br /> Except when reports from partners are unavailable, the reports of our work will be available
-  	  in the 'Transparency' section.</p>
+  	  works for our community. You are also a member of our community. Please learn more about and donate to the charity of your choice listed below. <br /> </p>
         
   	<hr style = "border-top: 1px double black;
 	border-bottom: 1px double black;" />
 	<br />
-	<br />
+	<br />'
 
-        <div ng-repeat="product in products" class="col-md-6"> 
-  				<div class="thumbnail"> 
-    				<img ng-src="{{ product.cover }}"> 
-    				<p class="title">{{ product.name }}</p> 
-				    <p class="price">{{ '$' + product.price }}</p> 
-				    <p class="date">{{ product.pubdate | date }}</p> 
-				    <div class="rating">
-				    	<p class="likes" ng-click="plusOne($index)">+ {{ product.likes }} </p>
+    	<p class="title">{{ product.name }}</p> 
+   <div ng-repeat="product in products" class="col-md-6"> 
+	<div class="thumbnail"> 
+	<img ng-src="{{ product.cover }}"> 
+	<p class="date">{{ product.pubdate | date }}</p> 
+	<div class="rating">
+	<p class="likes" ng-click="plusOne($index)">+ {{ product.likes }} </p>
 				    	  	<hr style = "border-top: 1px double;
 							border-bottom: 1px double;" />
 				    </div>

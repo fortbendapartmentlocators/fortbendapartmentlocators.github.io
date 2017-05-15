@@ -3,10 +3,10 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.promo = 'Let\'s make meaningful and lasting changes around us';
   $scope.products = [
   	{ 
-    	name: 'A Place for Peanuts', 
+    	name: 'Fort Bend Pets Alive', 
     	price: 15, 
     	pubdate: new Date('2017', '05', '01'), 
-    	cover: 'images/peanut.png',
+    	cover: 'images/FBPA.png',
     	likes: 0,
   	}, 
   	{ 
@@ -17,7 +17,7 @@ app.controller('MainController', ['$scope', function($scope) {
     	likes: 0,
   	}, 
   	{ 
-    	name: 'Continued Fort Bend Apartment Locators service for future residents of the great community', 
+    	name: 'Fort Bend Apartment Locators', 
     	price: 10,
     	pubdate: new Date('2017', '01', '01'), 
     	cover: 'images/image_1.png',

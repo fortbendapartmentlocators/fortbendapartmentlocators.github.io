@@ -282,7 +282,7 @@ text-decoration: none;
 	background-color: rgba(38,85,255,.3);
 	}
 	
-.Student_content {
+.Student_content, .Student_content li {
   float: left;
   text-align: left;
   margin: 0rem;
@@ -550,11 +550,14 @@ input[type=submit]:hover {
 	}
 	
 	apartment_images {
-		max-height: 7rem;
-		max-width: 32%;
+		max-height: 3rem;
+		max-width: 30%;
 		margin: 0.5rem 0.1rem;
 	}
-	
+	.About_content2 {
+		margin: 0;
+		padding: 0;
+	}
 	
 	  #tab_image_one,  #tab_image_two, #tab_image_three {	
 	 	  display: none;
