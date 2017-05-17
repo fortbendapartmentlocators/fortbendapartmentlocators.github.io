@@ -520,10 +520,6 @@ input[type=submit]:hover {
 	  padding: 0;
 	}
 	
-	#home_hawk {	
-	  height: 120%;
-	}
-
 	#header_logo {
 		max-width:27.5rem;
 		padding: 0;
@@ -543,7 +539,7 @@ input[type=submit]:hover {
 		color: #215E21;
 		border-bottom: 1px solid #215E21;
 		text-align: center;
-		margin: 1px 0;
+		margin: 1rem 0;
 	}
 	
 	#logo {
