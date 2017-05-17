@@ -148,7 +148,7 @@ footer.container p {
   font-family: 'Playfair Display', serif;
 }
 
-.apartment_images{
+.apartment_images img{
 	float: left;
 	margin: 2rem 0.5rem;
 	vertical-align: center;
@@ -504,19 +504,40 @@ input[type=submit]:hover {
 	position: inline-block;
 }
 
+#phonefont {
+		  color: inherit;
+  	font-family: inherit;
+  	font-size: 1.2rem;
+  	text-transform: none;
+ 	text-decoration: none;
+
+	}
+
+
 @media only screen and (max-width: 1000px) {
 	.box {
 	  max-width: 100%;	
-	  padding: 0 0 30rem 0;
+	  padding: 0;
 	}
 	
 	#header_logo {
 		max-width:27.5rem;
+		padding: 0;
+	}
+
+	#phonefont {
+		  color: inherit;
+  	font-family: inherit;
+  	font-size: 1.2rem;
+  	text-transform: none;
+ 	text-decoration: none;
+
 	}
 	
 	ul.menu li{
 		max-width: 10m;
 		color: #215E21;
+		border-bottom: 1px black;
 	}
 	
 	#logo {
