@@ -25,7 +25,7 @@ body {
 #header_logo {
 	width: 90%;
 	height:90%;
-	padding: 3rem;
+	padding: 3rem 3rem 0 3rem;
 	z-index: 3;
 }
 
@@ -103,7 +103,6 @@ p.drop-down a {
 
 #sub_head {
 
- font-size: 1rem;
  font-family: 'Playfair Display', serif;  
  color: #215E21;
  font-size: 3rem;
@@ -148,14 +147,13 @@ footer.container p {
   font-family: 'Playfair Display', serif;
 }
 
-.apartment_images img{
+.apartment_images {
 	float: left;
 	margin: 2rem 0.5rem;
 	vertical-align: center;
 	text-align: center;
 	height: 20rem;
 	width: 32%;
-
 }
 
 
@@ -240,6 +238,7 @@ text-decoration: none;
 #tablink_2 {
     background-color: #8B008B;
 	margin: 0rem 0rem 0rem 0.3125rem;
+	color: white;
 }
 
 #tablink_3 {
@@ -505,9 +504,10 @@ input[type=submit]:hover {
 }
 
 #phonefont {
-		  color: inherit;
-  	font-family: inherit;
-  	font-size: 1.2rem;
+	font-family: 'Playfair Display', serif;  
+ 	color: #215E21;
+ 	font-size: 3rem;
+ 	text-align: center;
   	text-transform: none;
  	text-decoration: none;
 
