@@ -266,7 +266,7 @@ text-decoration: none;
 }
 
 /* Set default styles for tab content */
-.tabcontent {
+.tabcontent .{
     color: black;
     display: none;
     padding: 3.125rem;
@@ -281,7 +281,7 @@ text-decoration: none;
 	background-color: rgba(38,85,255,.3);
 	}
 	
-.Student_content, .Student_content li {
+.Student_content, ul.Student_content li {
   float: left;
   text-align: left;
   margin: 0rem;
@@ -523,6 +523,7 @@ input[type=submit]:hover {
 	#header_logo {
 		max-width:27.5rem;
 		padding: 0;
+		height: 120%;
 	}
 
 	#phonefont {
@@ -538,6 +539,7 @@ input[type=submit]:hover {
 		max-width: 10m;
 		color: #215E21;
 		border-bottom: 1px black;
+		margin: 0;
 	}
 	
 	#logo {
@@ -558,9 +560,20 @@ input[type=submit]:hover {
 	
 	.tablink {
 	    max-width: 30%;
-	    padding: .5rem 0;
+	    padding: 0;
 	}
-	
+	#defaultOpen {
+		margin: 0;
+	}
+	#tablink_2 {
+	margin: 0;
+	}
+	#tablink_3 {
+	margin: 0;
+	}
+
+
+
 	.tabcontent {
 	    max-width: 90%;
 	}
@@ -570,8 +583,8 @@ input[type=submit]:hover {
           font-size: 1rem;
 	}
 	
-	apartment_images {
-		max-height: 3rem;
+	.apartment_images, .apartment_images img{
+		max-height: 5rem;
 		max-width: 30%;
 		margin: 0.5rem 0.1rem;
 	}
