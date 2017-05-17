@@ -390,6 +390,7 @@ form {
   margin: .625rem 1rem;
   padding: 1.25rem 1rem;
   font-size: 1.25rem;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -523,15 +524,6 @@ input[type=submit]:hover {
 	#header_logo {
 		max-width:27.5rem;
 		padding: 0;
-	}
-
-	#phonefont {
-		  color: inherit;
-  	font-family: inherit;
-  	font-size: 1.2rem;
-  	text-transform: none;
- 	text-decoration: none;
-
 	}
 	
 	ul.menu li{
