@@ -1,0 +1,41 @@
+app.controller('MainController', ['$scope', function($scope) { 
+  $scope.title = 'Our Community Projects'; 
+  $scope.promo = 'Let\'s make meaningful and lasting changes around us';
+  $scope.products = [
+
+	{ 
+	    cover: 'images/FBPA.jpg', 
+	    name: 'Fort Bend Pets Alive', 
+	    pubdate: https://www.facebook.com/fortbendpetsaliveurgent/
+https://www.fortbendpetsalive.org/
+	  }, 
+	{ 
+	    cover: 'images/SOCA.png', 
+	    name: 'Saving Our Companion Animals', 
+	    pubdate: 'https://www.facebook.com/soca.fortbendcounty/
+https://www.soca-fbc.org'
+	  }, 
+	  { 
+	    cover: 'images/peanut.png', 
+	    name: 'A Place for Peanuts', 
+	    pubdate: 'https://www.facebook.com/aplaceforpeanut/
+https://www.aplaceforpeanut.com'
+	  },
+	  {
+	    cover: 'images/logo_8.png',
+	    name: 'Fort Bend Apartment Locators',
+	    pubdate: 'https://www.facebook.com/Fort-Bend-Apartment-Locators-170813793441790/
+https://www.fortbendapartmentlocators.com'
+	  },
+	  {
+	    cover: 'images/TB_logo.png',
+	    name: 'Textbook Consultants',
+	    pubdate: 'https://www.facebook.com/textbookconsultants/
+https://www.textbookconsultants.com'
+
+	  }
+  ];
+  $scope.plusOne = function(index) { 
+  	$scope.products[index].likes += 1; 
+	};
+}]);

@@ -55,11 +55,11 @@ ul.menu li{
   display: inline-block;
   text-align: center;
   margin: 0rem 0rem 1rem 0rem;
-  width: 14rem;
+  width: 12rem;
   float: left;
   color: #00009B;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   clear: float;
   color: white;
@@ -153,7 +153,24 @@ footer.container p {
 	vertical-align: center;
 	text-align: center;
 	height: 20rem;
-	width: 32%;
+	width: 25rem;
+}
+
+.apartment_images2 {
+	float: left;
+	margin: 2rem 0.5rem;
+	vertical-align: center;
+	text-align: center;
+	height: 25rem;
+	width: 54rem;
+}
+.apartment_images3 {
+	float: left;
+	margin: 2rem 0.5rem;
+	vertical-align: center;
+	text-align: center;
+	height: 25rem;
+	width: 23rem;
 }
 
 
@@ -381,17 +398,18 @@ form {
 }
 
 .date {
-   color: #a3a3a3 ;
-   font-size: .875rem;
+   color: #215E21 ;
+   font-size: 1.2rem;
    font-weight: 200;
 }
 
 .title{
-  margin: .625rem 1rem;
-  padding: 1.25rem 1rem;
-  font-size: 1.25rem;
+  margin: 0em 1rem;
+  padding: .25rem 1rem;
+  font-size: 2rem;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  color: #215E21
 }
 
 .price {
@@ -590,9 +608,21 @@ input[type=submit]:hover {
 	
 	.apartment_images, .apartment_images img{
 		max-height: 5rem;
-		max-width: 30%;
+		max-width: 4rem;
 		margin: 0.5rem 0.1rem;
 	}
+	.apartment_images2 img{
+		max-height: 5rem;
+		max-width: 9rem;
+		margin: 0.5rem 0.1rem;
+	}
+	.apartment_images3 img{
+		max-height: 5rem;
+		max-width: 3rem;
+		margin: 0.5rem 0.1rem;
+	}
+
+
 	.About_content2 {
 		margin: 0;
 		padding: 0;
