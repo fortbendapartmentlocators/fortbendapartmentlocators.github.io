@@ -583,7 +583,7 @@ input[type=submit]:hover {
 	    max-width: 100%;
 	    padding: 0rem;
 	    margin: 0;
-	    max-height: 100%;
+
 	}
 		
 
@@ -591,12 +591,7 @@ input[type=submit]:hover {
           font-size: 1rem;
 	}
 	
-	#Parent {
-		background-color: rgba(139,0,139,.3);
-	}
-	#Instructor {
-		background-color: rgba(38, 255, 104, .3);
-	}
+
 	
 	.apartment_images, .apartment_images img{
 		max-height: 5rem;
