@@ -585,14 +585,15 @@ input[type=submit]:hover {
 	    margin: 0;
 
 	}
-	.student {
-		height: 65rem;
-	}		
+
 
 	* {
           font-size: 1rem;
 	}
 	
+	#Parent, #Student, #Instructor {
+	background-color: none;
+	}
 
 	
 	.apartment_images, .apartment_images img{
