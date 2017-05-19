@@ -592,7 +592,7 @@ input[type=submit]:hover {
 	}
 	
 	#Parent, #Student, #Instructor {
-	background-color: none;
+	background-color: rgba(188,216,172,0.6);
 	}
 
 	
