@@ -67,34 +67,22 @@
   	<br />
   	<br />
 
-  <body ng-app="myApp">
+  <div ng-app="myApp">
+    <div ng-app="AppMarketApp">
     <div class="header">
-      <div class="container">
-      </div>
     </div>
-
     <div class="main" ng-controller="MainController">
       <div class="container">
 
         <p id = "sub_head">Community</p>
-        
-      <p class = "About_content"> <br /> </p>
-        
   	<hr style = "border-top: 1px double black;
 	border-bottom: 1px double black;" />
-
-   <div ng-repeat="product in products" class="col-md-6"> 
-    	<p class="title" style = "margin: 3rem 0 0 0;">{{ product.name }}</p> 
-	<div class="thumbnail"> 
-	<img ng-src="{{ product.cover }}"> 
-	<p class="date">{{ product.pubdate | date }}</p> 
+         <div class="col-md-6" ng-repeat="app in apps">
+          <app-info info="app"></app-info>
      <install-app info="app"></install-app>
 	
-	
-	
-	
 	<hr style = "border-top: 1px double; border-bottom: 1px double;" />
-
+	</div>
 	</div> 
 	</div>
     </div>
