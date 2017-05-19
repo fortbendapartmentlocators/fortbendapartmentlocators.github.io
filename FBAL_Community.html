@@ -84,17 +84,24 @@
 	border-bottom: 1px double black;" />
 
    <div ng-repeat="product in products" class="col-md-6"> 
-    	<p class="title">{{ product.name }}</p> 
+    	<p class="title" style = "margin: 3rem 0 0 0;">{{ product.name }}</p> 
 	<div class="thumbnail"> 
 	<img ng-src="{{ product.cover }}"> 
 	<p class="date">{{ product.pubdate | date }}</p> 
-				    	  	<hr style = "border-top: 1px double;
-							border-bottom: 1px double;" />
-  				</div> 
-				</div>
-      </div>
+     <install-app info="app"></install-app>
+	
+	
+	
+	
+	<hr style = "border-top: 1px double; border-bottom: 1px double;" />
+
+	</div> 
+	</div>
+    </div>
     </div>
     <script src="images/app.js"></script>
+    <script src="images/appInfo.js"></script>
+    <script src="images/installApp.js"></script>    
     <script src="images/MainController_txt.js"></script>
   	<br />
   	<br />
