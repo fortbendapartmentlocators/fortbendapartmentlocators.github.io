@@ -16,10 +16,12 @@ app.directive('installApp', function() {
           scope.buttonText = "Website";
           scope.installed = false;
         } else {
-          scope.buttonText = "Thank you!";
+          scope.buttonText = "Website";
           scope.installed = true;
         }
       }
     }
+    
+    
   };
 });
