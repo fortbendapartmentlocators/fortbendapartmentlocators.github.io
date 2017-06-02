@@ -15,7 +15,7 @@ app.controller('MainController', ['$scope', function($scope) {
 	    name: 'Saving Our Companion Animals', 
  		url: "http://soca-fbc.org",
 		url2: "https://www.facebook.com/soca.fortbendcounty/",
-		url3: "https://www.paypal.com/donate/?token=TP9gvPMGeQioSXZL1hIdLH5yiBy4JCRmUpu9lUlm6YtsaGWHzFdW7N0Sa-lfMCP8LEtsoW"    
+		url3: "https://www.paypal.com/fundraiser/charity/2249273"    
 	  }, 
 	  { 
 	    cover: 'images/peanut.png', 
